@@ -153,6 +153,9 @@ public class HdfsClient {
         // 2 判断是文件还是文件夹
         FileStatus[] listStatus = fs.listStatus(new Path("/"));
 
+
+
+
         for (FileStatus fileStatus : listStatus) {
 
             // 如果是文件
