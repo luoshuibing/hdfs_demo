@@ -190,6 +190,7 @@ public class HdfsClient {
         // 5 关闭资源
         IOUtils.closeStream(fis);
         IOUtils.closeStream(fos);
+        fs.close();
     }
 
     @Test
@@ -215,6 +216,7 @@ public class HdfsClient {
         // 5关闭资源
         IOUtils.closeStream(fis);
         IOUtils.closeStream(fos);
+        fs.close();
     }
 
     /**
@@ -245,6 +247,7 @@ public class HdfsClient {
         // 6 关闭资源
         IOUtils.closeStream(fis);
         IOUtils.closeStream(fos);
+        fs.close();
     }
 
 }
